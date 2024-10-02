@@ -8,4 +8,5 @@ Sistema creado para habilitar estudiantes, maestros y administracion en la creac
 
 ## ER Diagram
 
-![ER Diagram](Untitled from dbdiagram.png)  <!-- Ensure to replace this with the correct path to your ER diagram image -->
+![ER Diagram](resources/imagenes/diagramaER.png)
+
