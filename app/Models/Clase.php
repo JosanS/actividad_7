@@ -9,6 +9,8 @@ class Clase extends Model
 {
     use HasFactory;
 
+    protected $table = 'clase';
+
     public function kitRobotica()
     {
     return $this->belongsTo(KitRobotica::class, 'kitID', 'kitID');

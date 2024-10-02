@@ -9,6 +9,8 @@ class Kitrobotica extends Model
 {
     use HasFactory;
 
+    protected $table = 'kit_robotica';
+    
     public function clases()
     {
     return $this->hasMany(Clase::class, 'kitID', 'kitID');
